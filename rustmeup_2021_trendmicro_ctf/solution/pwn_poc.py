@@ -16,7 +16,7 @@ TIME = [4268402577, 2885444848, 6069527499, 3145231422, 435446863, 8378224368, 3
 
 def start():
     if args.REMOTE:
-        return remote("44.196.98.6", 30301)
+        return remote("192.168.1.32", 30301)
     else:
         return process("./rustmeup")
 
